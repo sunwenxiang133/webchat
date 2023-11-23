@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.smartcampus.mapper.StudentMapper">
+
+
+<!--    &lt;!&ndash;增加用户信息&ndash;&gt;-->
+<!--    <insert id="save">-->
+<!--        insert into user-->
+<!--        <trim prefix="(" suffix=")" suffixOverrides="," >-->
+<!--            <if test="id != null" >-->
+<!--                id,-->
+<!--            </if>-->
+<!--            <if test="userName != null" >-->
+<!--                userName,-->
+<!--            </if>-->
+<!--            <if test="passWord != null" >-->
+<!--                passWord,-->
+<!--            </if>-->
+
+<!--            <if test="realName != null" >-->
+<!--                realName,-->
+<!--            </if>-->
+<!--        </trim>-->
+<!--        <trim prefix="values (" suffix=")" suffixOverrides="," >-->
+<!--            <if test="id != null" >-->
+<!--                #{id,jdbcType=INTEGER},-->
+<!--            </if>-->
+<!--            <if test="userName != null" >-->
+<!--                #{userName,jdbcType=VARCHAR},-->
+<!--            </if>-->
+<!--            <if test="passWord != null" >-->
+<!--                #{passWord,jdbcType=VARCHAR},-->
+<!--            </if>-->
+<!--            <if test="realName != null" >-->
+<!--                #{realName,jdbcType=VARCHAR},-->
+<!--            </if>-->
+<!--        </trim>-->
+<!--    </insert>-->
+
+
+<!--    &lt;!&ndash;根据id更改用户信息&ndash;&gt;-->
+<!--    <update id="update">-->
+<!--        update user-->
+<!--        <set >-->
+<!--            <if test="userName != null" >-->
+<!--                userName = #{userName,jdbcType=VARCHAR},-->
+<!--            </if>-->
+<!--            <if test="passWord != null" >-->
+<!--                passWord = #{passWord,jdbcType=VARCHAR},-->
+<!--            </if>-->
+<!--            <if test="realName != null" >-->
+<!--                realName = #{realName,jdbcType=VARCHAR},-->
+<!--            </if>-->
+<!--        </set>-->
+<!--        where id = #{id,jdbcType=INTEGER}-->
+<!--    </update>-->
+
+
+<!--    &lt;!&ndash;删除用户信息&ndash;&gt;-->
+<!--    <delete id="deleteById">-->
+<!--        delete from user where id=#{id}-->
+<!--    </delete>-->
+
+
+<!--    查询用户信息-->
+    <select id="getStudentInfo" resultType="com.example.smartcampus.entity.Student">
+        select * from student where user_id = #{id}
+    </select>
+
+    <!--返回所有用户信息-->
+    <select id="getConsInfo" resultType="com.example.smartcampus.entity.Cons">
+        select * from cons where cons_stuid = #{id}
+    </select>
+
+</mapper>

@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    username: root
+    password: Guet@192036
+    #url中test
+    #为对应的数据库名称
+    url: jdbc:mysql://39.108.172.122:3306/smartcampus?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.example.smartcampus.entity
+
+#showSql
+logging:
+  level:
+    com.example.smartcampus.mapper: debug
