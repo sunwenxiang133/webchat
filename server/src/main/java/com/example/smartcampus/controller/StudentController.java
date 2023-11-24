@@ -57,4 +57,15 @@ public class StudentController {
         System.out.println(consList);
         return studentService.getConsInfo(id);
     }
+
+    //获取学生卡交易记录
+    //   http://localhost:8081/student/getStuCard/2000301133/123(此处2000301133为账号）
+    @RequestMapping(value = "/cons/{id}")
+    @ResponseBody
+    public List<Cons> GetTransactionRecord(@PathVariable int id){
+        List<Cons> consList=new ArrayList<>();
+        consList.addAll(studentService.getConsInfo(id));
+        System.out.println(consList);
+        return studentService.getConsInfo(id);
+    }
 }
