@@ -1,16 +1,10 @@
-# webchat
-微信小程序大作业
+# DigitalCamplus
+
+微信小程序大作业-智慧校园
+
 # 项目配置与代码搭建规范
 
-## git husky和eslint
-
-## git commit 规范
-
-### 代码提交风格
-
-## 前端方面
-
-### eslint prettier
+# 前后端技术栈
 
 ### 代码提交验证
 
@@ -47,3 +41,4 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 
 Official Website
 qmk.fm is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
