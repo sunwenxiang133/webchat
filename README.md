@@ -26,3 +26,24 @@ Submitting patches: the essential guide to getting your code into the kernel
 Code of conduct
 Kernel Maintainer Handbook
 All development-process docs
+
+Documentation
+See the official documentation on docs.qmk.fm
+The docs are powered by Docsify and hosted on GitHub. They are also viewable offline; see Previewing the Documentation for more details.
+
+You can request changes by making a fork and opening a pull request, or by clicking the "Edit this page" link at the bottom of any page.
+
+Supported Keyboards
+Planck
+Preonic
+ErgoDox EZ
+Clueboard
+Cluepad
+Atreus
+The project also includes community support for lots of other keyboards.
+
+Maintainers
+QMK is developed and maintained by Jack Humbert of OLKB with contributions from the community, and of course, Hasu. The OLKB product firmwares are maintained by Jack Humbert, the Ergodox EZ by ZSA Technology Labs, the Clueboard by Zach White, and the Atreus by Phil Hagelberg.
+
+Official Website
+qmk.fm is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
