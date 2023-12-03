@@ -21,23 +21,21 @@ Code of conduct
 Kernel Maintainer Handbook
 All development-process docs
 
-Documentation
-See the official documentation on docs.qmk.fm
-The docs are powered by Docsify and hosted on GitHub. They are also viewable offline; see Previewing the Documentation for more details.
+Lost Ruins is a 2D side-scrolling survival action game, where you play as a young girl that has awoken in a strange and foreign place without her memories. Explore a dark and dangerous world, battle hideous monsters, and topple incredible bosses.
 
-You can request changes by making a fork and opening a pull request, or by clicking the "Edit this page" link at the bottom of any page.
+Engage in Combat
+Combat in Lost Ruins is in real time, and can be both fast and methodical. Slash away at enemies, burn them to a crisp, or even deflect their projectiles back at them. Arm yourself with a variety of swords, axes and other assorted medieval weaponry, and hack monsters to pieces.
 
-Supported Keyboards
-Planck
-Preonic
-ErgoDox EZ
-Clueboard
-Cluepad
-Atreus
-The project also includes community support for lots of other keyboards.
+Master Spells
+For those with an affinity for magic, Lost Ruins allows you to cast a variety of spells through wands, tonics, and scrolls. Burn monsters, freeze bosses, and heal yourself when in danger. Choose what works for your playstyle and make a magic casting character that’s totally your own.
 
-Maintainers
-QMK is developed and maintained by Jack Humbert of OLKB with contributions from the community, and of course, Hasu. The OLKB product firmwares are maintained by Jack Humbert, the Ergodox EZ by ZSA Technology Labs, the Clueboard by Zach White, and the Atreus by Phil Hagelberg.
+Choose Accessories
+The world of Lost Ruins is a dangerous one and being armed to the teeth with awesome weaponry is sometimes not enough. That’s where accessories come in. Accessories are unique pieces of equipment with all manner of effects. One accessory might protect you against fire, while another might heal you when you’re poisoned. The right combination of accessories can create different strategic options for your adventure.
+
+Use the Environment
+As you explore the depths of Lost Ruin’s dimly lit dungeons, you will find that while everything around you might bring about your death, you can also use the environment around you to your advantage. Elements within the world will react with other elements realistically. Flammable liquids will be set ablaze when in contact with lit lanterns. Ice magic will freeze bodies of water, making them dangerously cold. The more you understand the environment and how to use it to your advantage, the more dangerous you will become.
+
+A young girl wakes up in a dimly lit dungeon without any of her memories. Surrounded by horrible, bloodthirsty monsters, she is rescued by a mysterious magician, Beatrice. With Beatrice’s help, the girl goes on a perilous journey to find answers and unlock the secrets of the Lost Ruins.
 
 Official Website
 qmk.fm is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
